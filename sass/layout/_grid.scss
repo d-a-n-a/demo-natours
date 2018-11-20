@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width; //fills 100% of the space it has
-  background-color: #eee;
   margin: 0 auto; //center block elment inside another block element
 
   &:not(:last-child) { //we select evertthing except the last-child
@@ -12,8 +11,7 @@
   //the attribute selector
     //we want the beginning to be like the model
   [class^="col-"] {
-    background-color: $color-primary;
-    float: left;
+     float: left;
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
     }
