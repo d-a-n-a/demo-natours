@@ -1,12 +1,11 @@
 .card {
-  //FUNCTIONALITY: ;
+  //FUNCTIONALITY:
 
   //the lower the value the more dramatic the result is
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   height: 52rem;
-
 
   &__side {
   font-size: 2rem;
@@ -61,7 +60,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    
+
     &--1 {
       background-image: linear-gradient(to right bottom,
                         $color-secondary-light, $color-secondary-dark),
